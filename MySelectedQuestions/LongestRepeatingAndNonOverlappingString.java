@@ -42,7 +42,7 @@ public class LongestRepeatingAndNonOverlappingString {
         }
 
         // If no repeating substring is found, return "-1"
-        if (maxLen == -1)
+        if (maxLen <= 0)
             return "-1";
         
         // Return the longest repeating substring
